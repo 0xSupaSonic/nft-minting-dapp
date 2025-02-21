@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0xdb3b0e70B86366c4f72FEb9DB99357B2a085736d",
+  "SCAN_LINK": "https://testnet.sonicscan.org/address/0xdb3b0e70b86366c4f72feb9db99357b2a085736d",
+  "NETWORK": {
+    "NAME": "Sonic Blaze Testnet",
+    "SYMBOL": "S",
+    "ID": 57054
+  },
+  "NFT_NAME": "SonicX Cult NFTs",
+  "SYMBOL": "SCNFT",
+  "MAX_SUPPLY": 1111,
+  "WEI_COST": 500000000000000000,
+  "DISPLAY_COST": 0.5,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "PaintSwap",
+  "MARKETPLACE_LINK": "https://paintswap.io/sonic/collections/sonicx-cult-nfts/listings",
+  "WEBSITE_LINK": "https://sonicx.xyz/",
+  "SHOW_BACKGROUND": true
+}
