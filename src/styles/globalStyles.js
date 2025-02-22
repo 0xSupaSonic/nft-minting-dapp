@@ -4,12 +4,14 @@ import styled from "styled-components";
 export const Screen = styled.div`
   background-color: var(--primary);
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  width: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 `;
 
 // Used for providing space between components
@@ -43,11 +45,14 @@ export const Container = styled.div`
   flex-direction: ${({ fd }) => (fd ? fd : "column")};
   justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
   align-items: ${({ ai }) => (ai ? ai : "flex-start")};
-  background-color: ${({ test }) => (test ? "pink" : "none")};
+  background-color: ${({ test }) => (test ? "red" : "none")};
   width: 100%;
+  height: 100%;
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+
 `;
 
 export const TextTitle = styled.p`

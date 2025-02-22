@@ -62,7 +62,7 @@ export const ResponsiveWrapper = styled.div`
   justify-content: stretched;
   align-items: stretched;
   width: 100%;
-  @media (min-width: 767px) {
+  @media (min-width: 1080px) {
     flex-direction: row;
   }
 `;
@@ -89,12 +89,24 @@ export const StyledImg = styled.img`
     width: 300px;
   }
   transition: width 0.5s;
-`;
-
-export const StyledLink = styled.a`
+  `;
+  
+  export const StyledLink = styled.a`
   color:rgb(255, 0, 0);
   font-weight: bold;
-  font-size: 1.1em;
+  @media (max-width: 420px) {
+    font-size: 75%;
+  }
+  
+  @media (min-width: 720px) {
+    font-size: 125%;
+    }
+    
+  @media (min-width: 1080px) {
+    font-size: 150%;
+  }
+  
+
   text-decoration: none;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 `;
