@@ -19,7 +19,7 @@ const dataReducer = (state = initialState, action) => {
       return {
         ...state,
         loading: false,
-        totalSupply: action.payload.totalSupply,
+        totalSupply: action.payload.totalSupply.toString(),
         // cost: action.payload.cost,
         error: false,
         errorMsg: "",
@@ -29,7 +29,7 @@ const dataReducer = (state = initialState, action) => {
         ...initialState,
         loading: false,
         error: true,
-        errorMsg: action.payload,
+        errorMsg: action.payload.toString(),
       };
     default:
       return state;
