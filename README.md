@@ -1,6 +1,6 @@
 <body style="background-color: #333333;">      
 
-# 💎 Welcome to The SonicX Cult NFT 💎
+# 💎 Welcome to The SonicX Cult NFT Collection 💎
 [![Netlify Status](https://api.netlify.com/api/v1/badges/df48aadf-c96d-42f2-ab89-aec156704acc/deploy-status)](https://app.netlify.com/sites/sonicx-cult-nfts/deploys)
 ![](logo-blob.png)
 
@@ -12,7 +12,7 @@ To find out more please visit:
 
 [📺 X](https://x.com/XCultSonic)
 
-[ℹ️ Website](https://sonicx-cult-nft.netlify.com/)
+[ℹ️ Website](https://sonicx-cult-nfts.netlify.app/)
 
 # The SonicX Cult NFT minting dapp 🔥
 
